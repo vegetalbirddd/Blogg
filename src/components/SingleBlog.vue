@@ -42,6 +42,7 @@ p {
   padding: 20px;
   background: rgba(255, 255, 255, 0.6);
   border: 1px dotted #aaa;
+  border-radius: 3px;
 }
 h1 {
   color: #47626d;

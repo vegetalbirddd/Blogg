@@ -60,7 +60,7 @@ export default {
     max-width: 800px;
     margin: 0 auto;
     background: url(@/assets/zaizai.png) fixed repeat-y center;
-  
+    
     background-size: cover;
 }
 .single-blog {
@@ -69,6 +69,7 @@ export default {
     width: 960px;
     box-sizing: border-box;
     background: rgba(255,255,255,.6);
+    border-radius: 3px;
 }
 #show-blog a {
     text-decoration: none;
@@ -77,8 +78,9 @@ export default {
 input[type="text"] {
     padding: 8px;
     width: 960px;
-
+    outline: none;
     box-sizing: border-box;
     border: 0;
+    border-radius: 3px;
 }
 </style>
